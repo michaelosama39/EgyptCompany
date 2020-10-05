@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    tools:context=".view.fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14dp">
+
+        <TextView
+            android:id="@+id/date_TV_HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Date"
+            android:fontFamily="serif-monospace"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/hospital_SPN_HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Spinner
+        android:id="@+id/doctor_SPN_HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <EditText
+            android:id="@+id/ET_HomeFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="quantity"
+            android:inputType="number"/>
+
+        <Spinner
+            android:id="@+id/order_SPN_HomeFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/time_ET_HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="time"
+        android:hint="Time"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@color/logo"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp">
+
+        <Button
+            android:id="@+id/plusOrder_BTN_HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+1 order"
+            android:textColor="@color/logo"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/save_BTN_HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/logo"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dateCenter_TV_HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

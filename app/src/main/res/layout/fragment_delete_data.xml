@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.fragment.DeleteDataFragment">
+
+    <TextView
+        android:id="@+id/title_TV_DeleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete data"
+        android:textStyle="bold"
+        android:textColor="@color/logo"
+        android:textSize="22sp"
+        android:fontFamily="@font/hpunk"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/hospital_BTN_DeleteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/doctor_BTN_DeleteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/order_BTN_DeleteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_DeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

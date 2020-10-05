@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="6dp">
+
+    <TextView
+        android:id="@+id/hospital_TV_StyleRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:id="@+id/doctor_TV_StyleRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:id="@+id/order_TV_StyleRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:id="@+id/time_TV_StyleRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp" />
+
+    <TextView
+        android:id="@+id/end_TV_StyleRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----------------------------------------------------"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/white"
+    tools:context=".view.fragment.SignInFragment">
+
+    <ImageView
+        android:id="@+id/logo_IV_SignInFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/egypt_import_export"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_SignInFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_IV_SignInFragment"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleSignIn_TV_SignInFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textColor="@color/logo"
+            android:textSize="22sp"
+            android:fontFamily="@font/hpunk"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/email_ET_SignInFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/password_ET_SignInFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/enter_BTN_SignInFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:fontFamily="serif-monospace"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgetPassword_TV_SignInFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password !?"
+        android:textSize="20sp"
+        android:layout_below="@id/linearLayout_SignInFragment"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/newAccount_TV_SignInFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account !?"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "323674271291",
+    "firebase_url": "https://egypt-import-and-export.firebaseio.com",
+    "project_id": "egypt-import-and-export",
+    "storage_bucket": "egypt-import-and-export.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323674271291:android:a7149909b9cf7d44fa761e",
+        "android_client_info": {
+          "package_name": "com.example.egyptimportandexport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323674271291-ng7j3o9l7foean3g33g2f9mfodbq3oev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ZHeSYZu0_pyeMgVwN4v9XpXcVwRmYXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323674271291-ng7j3o9l7foean3g33g2f9mfodbq3oev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
